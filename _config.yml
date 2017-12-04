@@ -13,16 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: A Career Change
+email: jody.vanden@gmaile.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I have a mechanical engineer degree and when I moved to Australia I found out
+  that the industry in manufacturing here is not as big as I though. This is why
+   I am doing a career change and try to go into Ruby dev. I chose Ruby as a
+   language because it is friendly, massivly used in Australia and with a strong
+    community.
+  I know that inversting in junior might be annoying. But I am a fast learner
+  and want to succed in this industry. And I know that technicaly I am not the
+  best right now in the dev industry, but as a formal mechanical engineer I had
+  to deal with a lot of technical problems.
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  JodyVanden
 
 # Build settings
 markdown: kramdown
@@ -30,6 +38,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+  #Write an awesome description for your new site here. You can edit this
+  # line in _config.yml. It will appear in your document head meta (for
+  # Google search results) and in your feed.xml site description.
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
