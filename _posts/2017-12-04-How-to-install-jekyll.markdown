@@ -90,3 +90,9 @@ constant at the bottom which looks like this
 `[jekyll-docs]: https://jekyllrb.com/docs/home`
 
 <h1>hope this helps some people to start their blog on the Githubpages</h1>
+
+PS: You can also find [First Jekyll cheat sheet][jekyll-cheat-sheet] or another [Second Jekyll cheat sheet][jekyll-cheat-sheet2] where most of the commands
+are put together.
+
+[jekyll-cheat-sheet]: https://learn.cloudcannon.com/jekyll-cheat-sheet/
+[jekyll-cheat-sheet2]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
