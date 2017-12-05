@@ -5,7 +5,8 @@ date:   2017-12-04 16:26:00 +1100
 categories: jekyll github newbee
 ---
 
-I write this post to share to people starting a blog on Jekyll how to set it up. I was scrolling around the web and could not find out an easy setup Jekyll. I will try to do it here.
+I write this post to share to people starting a blog on Jekyll how to set it up. I was scrolling around the web and could not find out an easy setup Jekyll.
+I will try to do it here.
 
 <h2> 1- installation of Jekyll on your computer </h2>
 
