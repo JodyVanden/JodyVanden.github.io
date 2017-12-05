@@ -5,12 +5,7 @@ date:   2017-12-04 16:26:00 +1100
 categories: jekyll github newbee
 ---
 
-I am writting this post as I am new to Jekyll and wanted to share how to set it
-up in the Github environment. Apparently as a newbe in the code industry it is
-recommanded to have a blog to show out what am I doing and what did I do during
-those long months of job hunting.
-
-this is my first post to show it
+I write this post to share to people starting a blog on Jekyll how to set it up. I was scrolling around the web and could not find out an easy setup Jekyll. I will try to do it here.
 
 <h2> 1- installation of Jekyll on your computer </h2>
 
