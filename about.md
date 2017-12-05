@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I have a mechanical engineer degree and when I moved to Australia I found out
+that the industry in manufacturing here is not as big as I though. This is why
+I am doing a career change and try to go into Ruby dev. I chose Ruby as a
+language because it is friendly, massivly used in Australia and with a strong
+community.
+I know that inversting in junior might be annoying. But I am a fast learner
+and want to succed in this industry. And I know that technicaly I am not the
+best right now in the dev industry, but as a formal mechanical engineer I had
+to deal with a lot of technical problems.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+You can find my GitHub:
+[JodyVanden][jodyvanden-github]
 
 
-[jekyll-organization]: https://github.com/jekyll
+[jodyvanden-github]: https://github.com/JodyVanden
