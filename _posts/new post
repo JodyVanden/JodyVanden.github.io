@@ -1,0 +1,5 @@
+<% if current_user.email == 'jody.vanden@gmail.com' %>
+
+https://github.com/pawel2105/agameoftags
+
+https://github.com/MkNiz/Acrostuck/blob/a138d5cd08e821828695b3206ac3ed0b42570232/app/helpers/comments_helper.rb
