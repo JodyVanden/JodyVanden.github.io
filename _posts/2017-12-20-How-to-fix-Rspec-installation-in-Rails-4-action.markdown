@@ -1,21 +1,22 @@
 ---
 layout: post
-title:  "How to use Jekyll as a Github Blog"
+title:  "How to fix Rspec installation in Rails 4 action"
 date:   2017-12-20 16:26:00 +1100
 categories: rails rspec install trouble
 ---
 
-I started to read [Rails 4 in action][rails4action] and find the methodologie really good. This book shows what is happening in the dev's head and I find the knownledge behind that hudge.
+I started to read [Rails 4 in action][rails4action] and found the methodologie really good. This book shows us the mechanism of how to code properly. You are in fact in a dev's brain and see how he thinks about everything, which is perfect for people starting to code and how to get the best pratice.
 
 I really recommend you to read this book and don't be passive. Because you will only learn if you are trying to do it by your own!
 
-I- Rspec installation - trouble shooting
+I am writting this post because I had trouble with my Rspec installation. If you are in a rush, it was because I had the wrong rspec-rails version ...
+<h1>I- Rspec installation - trouble shooting</h1>
 
 The book is from 2014 and gems versions are moving. I had an issue when I was trying to install the Rspec on my computer. I followed the infos on the gemfile .... but could not figure out what I had.
 
 This is what I had when I was trying to install Rspec
 {% highlight ruby %}
-$rails g rspec:install                                                                                                                             [2.3.5]
+$rails g rspec:install
 /Users/14buijq/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/railtie/configuration.rb:95:in `method_missing': undefined method `load_defaults' for #<Rails::Application::Configuration:0x00007fde505f7518> (NoMethodError)
   from /Users/14buijq/Documents/code-jody/JodyVanden/ticketee/config/application.rb:12:in `<class:Application>'
   from /Users/14buijq/Documents/code-jody/JodyVanden/ticketee/config/application.rb:10:in `<module:Ticketee>'
@@ -34,7 +35,7 @@ $rails g rspec:install                                                          
 
 I tried differents ways to install it with bundle exec, because sometimes I found out that it helps if you install it in the bundle environment.
 {% highlight ruby %}
-$bundle exec rails g rspec:install                                                                                                                 [2.3.5]
+$bundle exec rails g rspec:install
 /Users/14buijq/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/railtie/configuration.rb:95:in `method_missing': undefined method `load_defaults' for #<Rails::Application::Configuration:0x00007fcd04c92e70> (NoMethodError)
   from /Users/14buijq/Documents/code-jody/JodyVanden/ticketee/config/application.rb:12:in `<class:Application>'
   from /Users/14buijq/Documents/code-jody/JodyVanden/ticketee/config/application.rb:10:in `<module:Ticketee>'
@@ -50,8 +51,7 @@ $bundle exec rails g rspec:install                                              
   from /Users/14buijq/.rbenv/versions/2.3.5/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
   from -e:1:in `<main>'
 {% endhighlight ruby %}
-
-II- How to fix the installation of Rspec in mycase
+<h1>II- How to fix the installation of Rspec in mycase</h1>
 
 I tried to uninstall rspec and the dependencies, researching on all sorts of forums, checked if spring was not the problem... I finally tried to search other projects on Github with the same name. I found one and inspected the gemfile (because I knew this was caused by the Gemfile).
 my old gemfile:
@@ -122,4 +122,4 @@ I finally found out that the version of Rspec-rails was not compatible with the 
 
 I hope to help those who were in the same trouble as I.
 
-I finally removed the
+[rails4action]: https://www.manning.com/books/rails-4-in-action

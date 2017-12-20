@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: A Career Change
-email: jody.vanden@gmaile.com
+email: jody.vanden@gmail(e).com
 description: >- # this means to ignore newlines until "baseurl:"
   previous mechanical engineer working in the drone industry wanting to do a
   career change in the Ruby env
